@@ -40,7 +40,6 @@ body {
     padding-left: 0px;
     padding-right: 0px;
 }
-
 .navbar-brand {
     font-size: 1.5rem;
     font-weight:300;
@@ -56,11 +55,14 @@ body {
     padding: 3% 13%;
     background-color: #21bf73;
 }
-
 .title-emphasis {
     color:#FD5E53;
 }
-
+.title-joke {
+    font-size: 1.3rem;
+    color: #f9fcfb;
+    font-weight: 500;
+}
 .phone-img-title{
     height: 600px;
     transform: rotateZ(7deg);
