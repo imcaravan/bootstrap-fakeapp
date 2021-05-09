@@ -29,6 +29,17 @@ h1 {
     font-weight: 900;
 }
 
+h3 {
+    color:#21bf73;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+p {
+    color:#B0EACD;
+    font-weight: 600;
+}
+
 body {
     background-color: #f9fcfb;
 }
@@ -50,22 +61,70 @@ body {
 }
 
                     /* Title */
+#title {
+    background-color: #21bf73;
+}
 
 .container-fluid {
     padding: 3% 13%;
-    background-color: #21bf73;
 }
+
 .title-emphasis {
     color:#FD5E53;
 }
+
 .title-joke {
     font-size: 1.3rem;
     color: #f9fcfb;
     font-weight: 500;
 }
+
 .phone-img-title{
     height: 600px;
     transform: rotateZ(7deg);
+}
+
+.button-title {
+    margin: 5% 3% 5%;
+}
+
+                    /* Features */
+
+#features {
+    background-color:#f9fcfb;
+}
+
+.feature-container {
+   padding: 5% 5%;
+}
+.feature-icon {
+    font-size: 3rem;
+    color: #FD5E53;
+    transition: all 0.1s ease-in-out;
+}
+
+.feature-icon:hover {
+    color:#B0EACD;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 5%;
+}
+
+                    /* Testimonials */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#B0EACD;
+    color: #FD5E53;
+}
+
+.testimonial-picture {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
 }
 
 
