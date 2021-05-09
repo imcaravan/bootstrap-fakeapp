@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
+            <!-- Font Awesome -->
+    <script 
+        src="https://kit.fontawesome.com/c3d4de8ffc.js" 
+        crossorigin="anonymous"></script>
 
             <!-- Bootstrap 4.6 -->
     <link 
@@ -19,37 +24,59 @@
 </head>
 <body>
 
-    <section id="title-section">
-        <nav class="navbar navbar-light navbar-expand-sm">
-            <a class="navbar-brand" href="">Lorem Ipsum</a>
-            <button
-                class="navbar-toggler" 
-                type="button" 
-                data-toggle="collapse" 
-                data-target="#navbar-toggle" 
-                aria-controls="navbarTogglerDemo01" 
-                aria-expanded="false" 
-                aria-label="Toggle navigation">
+    <!-- Navbar -->
+    <section id="title">   
+        <div class="container-fluid">
+            <nav class="navbar navbar-dark navbar-expand-sm">
+                <a class="navbar-brand" href="">remdit</a>
+                <button
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbar-toggle" 
+                    aria-controls="navbarTogglerDemo01" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
 
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-toggle">
-                <ul class="navbar-nav ml-auto"></ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Contact</a>
-                    </li>
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Download</a>
-                    </li>
-                </ul>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-toggle">
+                     <ul class="navbar-nav ml-auto"></ul>
+                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Contact</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Download</a>
+                        </li>
+                    </ul>
+                </div>
+             </nav>
+
+    <!-- Title Section -->
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Pretend this is Reddit, but <strong class="title-emphasis">I</strong> made it.</h1>
+                    <button
+                        type="button"
+                        class="btn btn-dark btn-lg">
+                        <i class="fab fa-apple"></i> Download</button>
+                    <button
+                        type="button"
+                        class=" btn btn-outline-light btn-lg">
+                        <i class="fab fa-google-play"></i> Download</button>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="/images/android-mockup.png" alt="android-mockup" class="phone-img-title">
+                </div>
             </div>
-        </nav>
-
-
+        </div>
     </section>
 
 
