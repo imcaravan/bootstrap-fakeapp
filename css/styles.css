@@ -29,6 +29,12 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    color:#21bf73;
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
 h3 {
     color:#21bf73;
     font-size: 1.7rem;
@@ -116,7 +122,6 @@ body {
                     /* Testimonials */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color:#B0EACD;
     color: #FD5E53;
@@ -128,9 +133,16 @@ body {
     margin: 20px;
 }
 
-.carousel-item {
-    padding-bottom: 5%;
+.carousel-header {
+    font-size: 2.7rem;
 }
+
+.carousel-item {
+    padding: 7% 15%;
+    font-size: 1.3rem;
+}
+
+
 
                     /* Press */
 
