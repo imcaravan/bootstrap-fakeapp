@@ -36,13 +36,11 @@ h2 {
 }
 
 h3 {
-    color:#21bf73;
     font-size: 1.7rem;
     font-weight: 600;
 }
 
 p {
-    color:#B0EACD;
     font-weight: 600;
 }
 
@@ -110,6 +108,14 @@ body {
     transition: all 0.1s ease-in-out;
 }
 
+.features-h3 {
+    color:#21bf73;
+}
+
+.features-p {
+    color: #B0EACD;
+}
+
 .feature-icon:hover {
     color:#B0EACD;
 }
@@ -161,6 +167,20 @@ body {
 
 #pricing {
     text-align: center;
+    padding: 7% 12%;
+}
+
+.pricing-p {
+    color:#B0EACD;
+    padding: 1%;
+}
+
+.pricing-h3 {
+    color:#21bf73;
+}
+
+.middle-class {
+    color:#FD5E53;
 }
 
 
