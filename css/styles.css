@@ -170,6 +170,10 @@ body {
     padding: 7% 12%;
 }
 
+.pricing-row {
+    padding: 3% 2%;
+}
+
 .pricing-p {
     color:#B0EACD;
     padding: 1%;
@@ -177,6 +181,10 @@ body {
 
 .pricing-h3 {
     color:#21bf73;
+}
+
+.button-length {
+    width: 100%;
 }
 
 .middle-class {
