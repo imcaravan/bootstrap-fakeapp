@@ -91,10 +91,11 @@ body {
     position:absolute;
     margin-left: 10%;
     z-index: 1;
+    transition: all 0.3s ease-in-out;
 }
 
 .img-container {
-    height: 300px;
+    /* height: 300px; */
 }
 
 .button-title {
@@ -112,6 +113,7 @@ body {
 .feature-container {
    padding: 5% 5%;
 }
+
 .feature-icon {
     font-size: 3rem;
     color: #FD5E53;
@@ -202,4 +204,17 @@ body {
     color:#FD5E53;
 }
 
+                    /* If tablet sized or smaller */
+
+@media (max-width: 990px) {
+
+    #title {
+        text-align:center;
+    }
+
+    .phone-img-title {
+        position: static;
+        transform: rotateZ(0deg);
+    }
+}
 
