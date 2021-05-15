@@ -71,11 +71,12 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 13%;
+    padding: 3% 13% 8%;
 }
 
 .title-emphasis {
     color:#FD5E53;
+    text-shadow: 5px 5px #B0EACD;
 }
 
 .title-joke {
@@ -86,7 +87,14 @@ body {
 
 .phone-img-title{
     height: 600px;
-    transform: rotateZ(7deg);
+    transform: rotateZ(15deg);
+    position:absolute;
+    margin-left: 10%;
+    z-index: 1;
+}
+
+.img-container {
+    height: 300px;
 }
 
 .button-title {
@@ -96,6 +104,8 @@ body {
                     /* Features */
 
 #features {
+    position: relative;
+    z-index: 2;
     background-color:#f9fcfb;
 }
 
@@ -105,7 +115,7 @@ body {
 .feature-icon {
     font-size: 3rem;
     color: #FD5E53;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .features-h3 {
@@ -118,6 +128,7 @@ body {
 
 .feature-icon:hover {
     color:#B0EACD;
+    text-shadow: 5px 5px #FD5E53;
 }
 
 .feature-item {
