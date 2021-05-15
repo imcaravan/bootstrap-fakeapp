@@ -213,6 +213,7 @@ body {
     }
 
     .phone-img-title {
+        margin-left: 0%;
         position: static;
         transform: rotateZ(0deg);
     }
