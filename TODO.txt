@@ -1,4 +1,4 @@
 TODOS LEFT
 
-*   Testimonials
-*   
+*   REFACTOR CSS
+*   ^^^^ AVOID REPITITION AS MUCH AS POSSIBLE
