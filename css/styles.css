@@ -203,20 +203,30 @@ body {
 
                     /* Call to Action */
 
-#cto {
+#cta {
     padding-top: 5%;
     background-color:#21bf73;
     text-align: center;
 }
 
-.cto-p {
+.cta-p {
     color:#B0EACD;
+}
+
+.button-cta {
+    margin: 0 0.8%;
+    margin-bottom: 5%;
+    margin-top: 1%;   
+}
+
+.cta-emphasis {
+    text-shadow:#FD5E53 3px 3px;
 }
 
                     /* Footer */
 
 #footer {
-    padding-top: 8%;
+    padding-top: 3%;
     text-align: center;
 }
 
