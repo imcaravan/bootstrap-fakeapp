@@ -204,9 +204,29 @@ body {
                     /* Call to Action */
 
 #cto {
+    padding-top: 5%;
     background-color:#21bf73;
+    text-align: center;
 }
 
+.cto-p {
+    color:#B0EACD;
+}
+
+                    /* Footer */
+
+#footer {
+    padding-top: 8%;
+    text-align: center;
+}
+
+.footer-p {
+    color: #B0EACD;
+}
+
+.github-icon {
+    transition: 0.2s all ease-in-out;
+}
                     /* If tablet sized or smaller */
 
 @media (max-width: 990px) {
@@ -219,6 +239,10 @@ body {
         margin-left: 0%;
         position: static;
         transform: rotateZ(0deg);
+    }
+
+    .github-icon {
+        font-size: 1.5rem;
     }
 }
 
