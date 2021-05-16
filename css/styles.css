@@ -225,6 +225,16 @@ body {
     font-size: 0.8rem;
 }
 
+.github-link {
+    color: #FD5E53;
+    transition: all 0.1s ease-in-out
+}
+
+.github-link:hover {
+    color:#21bf73;
+    font-size: 1.3rem;
+}
+
 .github-icon {
     transition: 0.2s all ease-in-out;
 }
