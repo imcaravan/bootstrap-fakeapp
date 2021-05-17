@@ -28,7 +28,7 @@
     <!-- Navbar -->
 
     <section id="title">   
-        <div class="container-fluid navbar-title-container">
+        <div class="container-fluid">
             <nav class="navbar navbar-dark navbar-expand-sm">
                 <a class="navbar-brand" href="#footer">remdit</a>
                 <button
@@ -116,15 +116,15 @@
             <li data-target="#carousel-testimonial" data-slide-to="1"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <h2 class="carousel-header">Remdit is a safe space for me and my friends, we all love it. Remdit is great. I was NOT paid to say this. I think.</h2>
+            <div class="carousel-item testimonial-carousel-item container-fluid active">
+                <h2 class="testimonial-carousel-header carousel-header">Remdit is a safe space for me and my friends, we all love it. Remdit is great. I was NOT paid to say this. I think.</h2>
                 <img src="images/testifirst.jpg" alt="testimonial-1" class="testimonial-picture">
-                <em>Mark, Mum's Basement</em>
+                <em class="testimonial-em">Mark, Mum's Basement</em>
             </div>
-            <div class="carousel-item">
-                <h2 class="carousel-header">I enjoy remdit, it is alot better than Reddit. And when I say alot, i mean <strong>ALOT!</strong> Join remdit Today! Please?</h2>
+            <div class="carousel-item testimonial-carousel-item container-fluid">
+                <h2 class="testimonial-carousel-header carousel-header">I enjoy remdit, it is alot better than Reddit. And when I say alot, i mean <strong>ALOT!</strong> Join remdit Today! Please?</h2>
                 <img src="images/testisecond.jpg" alt="testimonial-2" class="testimonial-picture">
-                <em> Alcina, Castle Dimitrescu</em>
+                <em class="testimonial-em"> Alcina, Castle Dimitrescu</em>
             </div>
         </div>
         <a class="carousel-control-prev prev-button" href="#carousel-testimonial" role="button" data-slide="prev">
@@ -160,57 +160,59 @@
 
     <section id="pricing">
         
-        <h2 class="pricing-h2">You don't have to pay us, but we could use the stable income.</h2>
-        <p class="pricing-p">Just kidding, theres no we, only I. And "I" is turon.</p>
+        <div class="container-fluid">
+            <h2 class="pricing-h2">You don't have to pay us, but we could use the stable income.</h2>
+            <p class="pricing-p">Just kidding, theres no we, only I. And "I" is turon.</p>
 
-        
-        <div class="row pricing-row">  
-            <div class=" col-lg-4 col-md-6">
-                <div class="card mb-4 box-shadow">
-                    <div class="card-header">
-                        <h2 class="pricing-h2">frem.</h2>
-                    </div>
-                    <div class="card-body pricing-card-body">
-                        <h3 class="pricing-h3">Free!</h3>
-                        <div class="middle-class">
-                            <p>Ads, obviously.</p>
-                            <p>Ten max communities can be joined.</p>
-                            <p>Limited customization.</p>
-                            <button type="button" class="btn btn-success btn-block btn-lg">Join frem!</button>
-                        </div>    
-                    </div>
-                 </div>
-            </div>
-
-            <div class=" col-lg-4 col-md-6">
-                <div class="card mb-4 box-shadow">
-                    <div class="card-header">
-                        <h2 class="pricing-h2">paimd.</h2>
-                    </div>
-                    <div class="card-body pricing-card-body">
-                        <h3 class="pricing-h3">3$ / Month</h3>
-                        <div class="middle-class">
-                            <p>No Ads. Hooray!</p>
-                            <p>Unlimited communities!</p>
-                            <p>Some limitations on customization.</p>
-                            <button type="button" class="btn btn-success btn-block btn-lg">Join paimd!</button>
+            
+            <div class="row pricing-row">  
+                <div class=" col-lg-4 col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h2 class="pricing-h2">frem.</h2>
+                        </div>
+                        <div class="card-body pricing-card-body">
+                            <h3 class="pricing-h3">Free!</h3>
+                            <div class="middle-class">
+                                <p>Ads, obviously.</p>
+                                <p>Ten max communities can be joined.</p>
+                                <p>Limited customization.</p>
+                                <button type="button" class="btn btn-success btn-block btn-lg">Join frem!</button>
+                            </div>    
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class=" col-lg-4">
-                <div class="card mb-4 box-shadow">
-                    <div class="card-header">
-                        <h2 class="pricing-h2">gomd.</h2>
+                <div class=" col-lg-4 col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h2 class="pricing-h2">paimd.</h2>
+                        </div>
+                        <div class="card-body pricing-card-body">
+                            <h3 class="pricing-h3">3$ / Month</h3>
+                            <div class="middle-class">
+                                <p>No Ads. Hooray!</p>
+                                <p>Unlimited communities!</p>
+                                <p>Some limitations on customization.</p>
+                                <button type="button" class="btn btn-success btn-block btn-lg">Join paimd!</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body pricing-card-body">
-                        <h3 class="pricing-h3">10$ / Month</h3>
-                        <div class="middle-class">
-                            <p>Everything in paimd!</p>
-                            <p>Super secret beta tests!</p>
-                            <p>No limitations on customization!</p>
-                            <button type="button" class="btn btn-success btn-block btn-lg">Join gomd!</button>
+                </div>
+
+                <div class=" col-lg-4">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h2 class="pricing-h2">gomd.</h2>
+                        </div>
+                        <div class="card-body pricing-card-body">
+                            <h3 class="pricing-h3">10$ / Month</h3>
+                            <div class="middle-class">
+                                <p>Everything in paimd!</p>
+                                <p>Super secret beta tests!</p>
+                                <p>No limitations on customization!</p>
+                                <button type="button" class="btn btn-success btn-block btn-lg">Join gomd!</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -222,16 +224,18 @@
 
     <section id="cta">
 
-        <h1>Download <strong class="cta-emphasis">remdit</strong> Today!</h1>
-        <p class="cta-p">Every community, all there for you.</p>
-        <button
-            type="button"
-            class="btn btn-dark btn-lg button-cta">
-            <i class="fab fa-apple"></i> Download</button>
-        <button
-            type="button"
-            class=" btn btn-light btn-lg button-cta">
-            <i class="fab fa-google-play"></i> Download</button>
+        <div class="container-fluid">
+            <h1 class="cta-h1">Live, Laugh, and Love with <strong class="cta-emphasis">remdit</strong> Today!</h1>
+            <p class="cta-p">What are you waiting for?</p>
+            <button
+                type="button"
+                class="btn btn-dark btn-lg button-cta">
+                <i class="fab fa-apple"></i> Download</button>
+            <button
+                type="button"
+                class=" btn btn-light btn-lg button-cta">
+                <i class="fab fa-google-play"></i> Download</button>
+        </div>
     </section>
 
     <!-- Footer -->

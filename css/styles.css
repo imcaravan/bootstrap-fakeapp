@@ -1,20 +1,4 @@
-/* TRY THESE COLOR PALLETES AND SEE WHICH ONE I LIKE
-
-    #FAFAFA
-    #E3E3E3
-    #EE6F57
-    #CB3737
-
-    #F4F3F3
-    #DFDFDF
-    #BFD8D5
-    #B1BED5
-
-    #333333
-    #FFFFFF
-    #E1F4F3
-    #706C61
-
+/* Color Pallete for Website
     #FD5E53
     #F9FCFB
     #B0EACD
@@ -37,14 +21,21 @@ p {
 
 body {
     background-color: #f9fcfb;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    padding: 5% 13%;
 }
 
                     /* Navbar */
 
 .navbar {
-    padding-bottom: 4.5rem;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0 0 5%;
 }
 .navbar-brand {
     font-size: 1.5rem;
@@ -57,12 +48,12 @@ body {
 
                     /* Title */
 #title {
-    /* #21bf73 */
     background-color: #21bf73;
+    text-align: left;
 }
 
-.navbar-title-container {
-    padding: 3% 13% 8%;
+#title .container-fluid {
+    padding: 3% 13%;
 }
 
 .title-h1 {
@@ -81,7 +72,7 @@ body {
     font-weight: 500;
 }
 
-.phone-img-title{
+.phone-img-title {
     height: 600px;
     transform: rotateZ(15deg);
     position:absolute;
@@ -103,10 +94,6 @@ body {
     background-color:#f9fcfb;
 }
 
-.feature-container {
-   padding: 5% 5%;
-}
-
 .feature-icon {
     font-size: 3rem;
     color: #FD5E53;
@@ -115,8 +102,8 @@ body {
 
 .features-h3 {
     color:#21bf73;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.7rem;
+    font-weight: 00;
 }
 
 .features-p {
@@ -130,15 +117,12 @@ body {
 }
 
 .feature-item {
-    text-align: center;
     padding: 5%;
 }
 
                     /* Testimonials */
 
 #testimonials {
-    color: #FD5E53;
-    text-align: center;
     background-color:#B0EACD;
 }
 
@@ -148,13 +132,17 @@ body {
     margin: 20px;
 }
 
-.carousel-header {
+.testimonial-carousel-header {
     font-size: 2.7rem;
+    font-weight: 700;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-carousel-item {
     font-size: 1.3rem;
+}
+
+.testimonial-em {
+    color:#FD5E53;
 }
 
 
@@ -163,7 +151,6 @@ body {
 
 #press {
     background-color:#B0EACD;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -175,21 +162,19 @@ body {
                     /* Pricing */
 
 #pricing {
-    text-align: center;
-    padding: 7% 12%;
+    background-color:#f9fcfb;
 }
 
 .pricing-row {
-    padding: 3% 2%;
+    padding: 0% 2%;
 }
 
 .pricing-p {
     color:#B0EACD;
-    padding: 1%;
+    padding: 0%;
 }
 
 .pricing-h2 {
-    color:#21bf73;
     font-weight: 900;
     font-size: 2.3rem;
 }
@@ -213,11 +198,17 @@ body {
 #cta {
     padding-top: 5%;
     background-color:#21bf73;
-    text-align: center;
+}
+
+.cta-h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 1%;
 }
 
 .cta-p {
     color:#B0EACD;
+    padding-bottom: 1%;
 }
 
 .button-cta {
@@ -233,9 +224,7 @@ body {
                     /* Footer */
 
 #footer {
-    padding-top: 3%;
-    padding-bottom: 2%;
-    text-align: center;
+    padding: 3%;
 }
 
 .footer-p {
@@ -261,7 +250,7 @@ body {
 @media (max-width: 990px) {
 
     #title {
-        text-align:center;
+        text-align: center;
     }
 
     .phone-img-title {
