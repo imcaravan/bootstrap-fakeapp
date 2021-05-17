@@ -25,19 +25,10 @@
                     /* Pagewide Settings */
 h1 {
     color: #f9fcfb;
-    font-size: 3rem;
-    font-weight: 900;
 }
 
 h2 {
     color:#21bf73;
-    font-weight: 900;
-    font-size: 2.3rem;
-}
-
-h3 {
-    font-size: 1.7rem;
-    font-weight: 600;
 }
 
 p {
@@ -70,8 +61,13 @@ body {
     background-color: #21bf73;
 }
 
-.container-fluid {
+.navbar-title-container {
     padding: 3% 13% 8%;
+}
+
+.title-h1 {
+    font-size: 3rem;
+    font-weight: 900;
 }
 
 .title-emphasis {
@@ -119,10 +115,13 @@ body {
 
 .features-h3 {
     color:#21bf73;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .features-p {
     color: #B0EACD;
+    font-size: 1rem;
 }
 
 .feature-icon:hover {
@@ -189,8 +188,16 @@ body {
     padding: 1%;
 }
 
+.pricing-h2 {
+    color:#21bf73;
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
 .pricing-h3 {
     color:#21bf73;
+    font-weight: 600;
+    font-size: 1.6rem;
 }
 
 .button-length {
@@ -232,7 +239,7 @@ body {
 }
 
 .footer-p {
-    color: gray;
+    color: #FD5E53;
     font-size: 0.8rem;
 }
 
