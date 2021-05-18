@@ -37,10 +37,12 @@ html {
 .navbar {
     padding: 0 0 5%;
 }
+
 .navbar-brand {
     font-size: 1.5rem;
     font-weight:300;
 }
+
 .nav-link {
     font-weight: 400;
     font-size: 1.2rem;
@@ -100,20 +102,19 @@ html {
     transition: all 0.3s ease-in-out;
 }
 
+.feature-icon:hover {
+    color:#B0EACD;
+    text-shadow: 5px 5px #FD5E53;
+}
+
 .features-h3 {
     color:#21bf73;
-    font-size: 1.7rem;
-    font-weight: 00;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 .features-p {
     color: #B0EACD;
-    font-size: 1rem;
-}
-
-.feature-icon:hover {
-    color:#B0EACD;
-    text-shadow: 5px 5px #FD5E53;
 }
 
 .feature-item {
@@ -225,10 +226,10 @@ html {
 
 #footer {
     padding: 3%;
+    color: #FD5E53;
 }
 
 .footer-p {
-    color: #FD5E53;
     font-size: 0.8rem;
 }
 
