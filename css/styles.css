@@ -15,7 +15,12 @@ h2 {
     color:#21bf73;
 }
 
+h3 {
+    color: #21bf73;
+}
+
 p {
+    color: #B0EACD;
     font-weight: 600;
 }
 
@@ -68,7 +73,7 @@ html {
     text-shadow: 5px 5px #B0EACD;
 }
 
-.title-joke {
+.title-p {
     font-size: 1.3rem;
     color: #f9fcfb;
     font-weight: 500;
@@ -104,11 +109,11 @@ html {
 
 .feature-icon:hover {
     color:#B0EACD;
-    text-shadow: 5px 5px #FD5E53;
+    text-shadow: 7px 10px #FD5E53;
+    transform: translatey(-10px)
 }
 
 .features-h3 {
-    color:#21bf73;
     font-size: 1.4rem;
     font-weight: 700;
 }
@@ -163,7 +168,8 @@ html {
                     /* Pricing */
 
 #pricing {
-    background-color:#f9fcfb;
+    /* so far serves no purpose, leaving it here
+    incase we need to use it soon */
 }
 
 .pricing-row {
@@ -181,9 +187,11 @@ html {
 }
 
 .pricing-h3 {
-    color:#21bf73;
-    font-weight: 600;
     font-size: 1.6rem;
+}
+
+.pricing-card-p {
+    color:#FD5E53;
 }
 
 .button-length {
@@ -226,10 +234,10 @@ html {
 
 #footer {
     padding: 3%;
-    color: #FD5E53;
 }
 
 .footer-p {
+    color:#FD5E53;
     font-size: 0.8rem;
 }
 
