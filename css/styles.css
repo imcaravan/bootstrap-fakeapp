@@ -263,6 +263,7 @@ html {
     }
 
     .phone-img-title {
+        height: 500px;
         margin-left: 0%;
         position: static;
         transform: rotateZ(0deg);
